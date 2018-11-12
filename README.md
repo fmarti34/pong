@@ -16,7 +16,7 @@
 
 #### Score
 
-* First to 7 wins.
+* First to 7 wins
 
 ## GIF of the game being played
 
