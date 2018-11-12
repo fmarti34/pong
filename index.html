@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pong</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      canvas-wrap{
+        position: relative;
+      }
+      canvas{
+        background: #000;
+        margin-left: 17px;
+        margin-top: 17px;
+      }
+      body, html{
+        width: 100%;
+        height: 100%;
+        background-color: #333;
+      }
+      h1{
+        font-size: 80px;
+        color: #fff;
+        position: absolute;
+        top: 5%;
+      }
+      #score1{
+        left: 40%;
+      }
+      #score2{
+        left: 60%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="canvas-wrap">
+      <canvas id="canvas"></canvas>
+      <h1 id="score1">0</h1>
+      <h1 id="score2">0</h1>
+    </div>
+    <script src="javasheet.js"></script>
+  </body>
+</html>
